@@ -18,6 +18,7 @@ class CreateMascotasTable extends Migration
             $table->integer('edad');
             $table->string('nombre', 20);
             $table->string('tipo', 20);
+            $table->binary('imagen');
         });
     }
 
