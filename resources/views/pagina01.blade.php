@@ -2,11 +2,6 @@
 
   @section('titulo', 'Adopta una nueva mascota')
 
-  @section('barralateral')
-
-
-
-  @endsection
 
   @section('contenido')
 
@@ -17,7 +12,7 @@
 
               <div class="card">
                   <img src="{{asset('img/1.jpg')}}" height="300" width="338">
-                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+                  <a href="{{ url('paginaDatos', ['1']) }}" class="btn btn-xs btn-info">Ver más</a>
               </div>
 
           </div>
@@ -26,7 +21,7 @@
 
               <div class="card">
                   <img src="{{asset('img/2.jpg')}}" height="300" width="338">
-                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+                  <a href="{{ url('pregunta', ['2']) }}" class="btn btn-xs btn-info">Ver más</a>
               </div>
 
           </div>

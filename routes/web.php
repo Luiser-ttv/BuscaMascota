@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('pagina01');
 });
+Route::get('paginaDatos/{id}', 'MascotasController@carga_datos');
 

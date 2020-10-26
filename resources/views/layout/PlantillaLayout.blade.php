@@ -6,12 +6,13 @@
         <link href="{{ asset('css/app.css')}}" rel="stylesheet">
     </head>
     <body>
-        @section('barralateral')
-            Esto es la barra lateral
+        @section('muestraMascota')
+           
         @show
 
         <div class="container">
             @yield('contenido')
         </div>
+        
     </body>
 </html>
