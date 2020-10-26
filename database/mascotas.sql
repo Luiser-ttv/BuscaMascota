@@ -1,0 +1,10 @@
+INSERT INTO `mascotas`(`id`, `edad`, `nombre`, `tipo` , `raza`, `vacunas`, `chip`) VALUES
+(1, 5, 'Rex', 'perro', 'Pastor Alemán', 'Sí', 'No')
+(2, 5, 'Alfonso', 'perro', 'Pastor Alemán', 'Sí', 'No')
+(3, 5, 'Pelusita', 'perro', 'Pastor Alemán', 'Sí', 'No')
+(4, 5, 'Agallas', 'perro', 'Pastor Alemán', 'Sí', 'No')
+(5, 5, 'Milonga', 'perro', 'Pastor Alemán', 'Sí', 'No')
+(6, 5, 'Grumpi', 'perro', 'Pastor Alemán', 'Sí', 'No')
+(7, 5, 'Firulais', 'perro', 'Pastor Alemán', 'Sí', 'No')
+(8, 5, 'Gato', 'perro', 'Pastor Alemán', 'Sí', 'No')
+(9, 5, 'Oddie', 'perro', 'Pastor Alemán', 'Sí', 'No')

@@ -10,32 +10,119 @@
 
   @section('contenido')
 
-  <div class="container bg-light">
+  <div class="container">
+      <div class="row">
 
-      <div class="col-md-12 text-center">
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div class="col-md-4">
 
-          <img src="{{ url('pregunta', ['Historia']) }}">
-          <p>¿Cuál adoptarás?</p>
-        
-          <a href="{{ url('pregunta', ['Historia']) }}" class="btn btn-xs btn-info pull-right">Ant.</a>
-          <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info pull-right">Sig.</a>
-          <div class="container bg-light">
-
-              <div class="col-md-12 text-center">
-                  <br>
-
-                  <a href="{{ url('pregunta', ['Economia']) }}" class="btn btn-xs btn-info pull-right">Adoptar</a>
-
+              <div class="card">
+                  <img src="{{asset('img/1.jpg')}}" height="300" width="338">
+                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
               </div>
 
           </div>
 
+          <div class="col-md-4">
+
+              <div class="card">
+                  <img src="{{asset('img/2.jpg')}}" height="300" width="338">
+                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+              </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+              <div class="card">
+                  <img src="{{asset('img/3.jpg')}}" height="300" width="338">
+                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info pull-right">Ver más</a>
+              </div>
+
+          </div>
+
+          
 
       </div>
 
   </div>
+<br>
 
+  <div class="container">
+      <div class="row">
+
+          <div class="col-md-4">
+
+              <div class="card">
+                  <img src="{{asset('img/4.jpg')}}" height="300" width="338">
+                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+              </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+              <div class="card">
+                  <img src="{{asset('img/5.png')}}" height="300" width="338">
+                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+              </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+              <div class="card">
+                  <img src="{{asset('img/6.jpg')}}" height="300" width="338">
+                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+              </div>
+
+          </div>
+
+          
+
+      </div>
+
+
+
+  </div>
+  <br>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+
+            <div class="card">
+                <img src="{{asset('img/7.jpg')}}" height="300" width="338">
+                <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card">
+                <img src="{{asset('img/8.jpg')}}" height="300" width="338">
+                <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card">
+                <img src="{{asset('img/9.jpg')}}" height="300" width="338">
+                <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+
+
+</div>
 
 
   @endsection
