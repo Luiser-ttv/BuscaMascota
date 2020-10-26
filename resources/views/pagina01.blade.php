@@ -21,7 +21,7 @@
 
               <div class="card">
                   <img src="{{asset('img/2.jpg')}}" height="300" width="338">
-                  <a href="{{ url('pregunta', ['2']) }}" class="btn btn-xs btn-info">Ver más</a>
+                  <a href="{{ url('paginaDatos', ['2']) }}" class="btn btn-xs btn-info">Ver más</a>
               </div>
 
           </div>
@@ -30,7 +30,7 @@
 
               <div class="card">
                   <img src="{{asset('img/3.jpg')}}" height="300" width="338">
-                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info pull-right">Ver más</a>
+                  <a href="{{ url('paginaDatos', ['3']) }}" class="btn btn-xs btn-info pull-right">Ver más</a>
               </div>
 
           </div>
@@ -49,7 +49,7 @@
 
               <div class="card">
                   <img src="{{asset('img/4.jpg')}}" height="300" width="338">
-                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+                  <a href="{{ url('paginaDatos', ['4']) }}" class="btn btn-xs btn-info">Ver más</a>
               </div>
 
           </div>
@@ -58,7 +58,7 @@
 
               <div class="card">
                   <img src="{{asset('img/5.png')}}" height="300" width="338">
-                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+                  <a href="{{ url('paginaDatos', ['5']) }}" class="btn btn-xs btn-info">Ver más</a>
               </div>
 
           </div>
@@ -67,7 +67,7 @@
 
               <div class="card">
                   <img src="{{asset('img/6.jpg')}}" height="300" width="338">
-                  <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+                  <a href="{{ url('paginaDatos', ['6']) }}" class="btn btn-xs btn-info">Ver más</a>
               </div>
 
           </div>
@@ -88,7 +88,7 @@
 
             <div class="card">
                 <img src="{{asset('img/7.jpg')}}" height="300" width="338">
-                <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+                <a href="{{ url('paginaDatos', ['7']) }}" class="btn btn-xs btn-info">Ver más</a>
             </div>
 
         </div>
@@ -97,7 +97,7 @@
 
             <div class="card">
                 <img src="{{asset('img/8.jpg')}}" height="300" width="338">
-                <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+                <a href="{{ url('paginaDatos', ['8']) }}" class="btn btn-xs btn-info">Ver más</a>
             </div>
 
         </div>
@@ -106,7 +106,7 @@
 
             <div class="card">
                 <img src="{{asset('img/9.jpg')}}" height="300" width="338">
-                <a href="{{ url('pregunta', ['Ingles']) }}" class="btn btn-xs btn-info">Ver más</a>
+                <a href="{{ url('paginaDatos', ['9']) }}" class="btn btn-xs btn-info">Ver más</a>
             </div>
 
         </div>

@@ -27,10 +27,19 @@
                   <th scope="row">Raza</th>
                   <td>{{$datos_mascota->raza}}</td>
               </tr>
+              <tr>
+                  <th scope="row">Vacunado</th>
+                  <td>{{$datos_mascota->vacunas}}</td>
+              </tr>
+              <tr>
+                  <th scope="row">Chip</th>
+                  <td>{{$datos_mascota->chip}}</td>
+              </tr>
 
               @endforeach
           </tbody>
       </table>
       <br>
   </div>
+  <a href="{{ url('paginaDatos', ['1']) }}" class="btn btn-block btn-success">Adoptar</a>
   @endsection
